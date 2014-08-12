@@ -59,9 +59,9 @@ set wildmode=list:longest,full
 "better tabbing
 set smarttab  
 set expandtab
-set softtabstop=4
-set tabstop=4
-set shiftwidth=4
+set softtabstop=2
+set tabstop=2
+set shiftwidth=2
 
 "copy to system clipboard
 set clipboard=unnamed
