@@ -1,5 +1,7 @@
 " Configuration file for vim
 set modelines=0		" CVE-2007-2438
+scriptencoding utf-8
+set encoding=utf-8
 
 " Normally we use vim-extensions. If you want true vi-compatibility
 " remove change the following statements
@@ -57,11 +59,14 @@ set wildmenu
 set wildmode=list:longest,full
 
 "better tabbing
-set smarttab  
+set smarttab
 set expandtab
 set softtabstop=2
 set tabstop=2
 set shiftwidth=2
+
+set list
+set listchars=trail:·,precedes:«,extends:»,eol:↲,tab:▸\ 
 
 "copy to system clipboard
 set clipboard=unnamed
